@@ -16,7 +16,7 @@ import com.example.todo.entity.Tarefa;
 import com.example.todo.repository.TarefaRepository;
 
 @RestController
-@RequestMapping("/inicio")
+@RequestMapping()
 public class TarefaController {
     
     @Autowired

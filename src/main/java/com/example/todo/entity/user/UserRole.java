@@ -1,7 +1,7 @@
 package com.example.todo.entity.user;
 
 public enum UserRole {
-    ADMIN("admin"), USER("user");
+    ADMIN("ADMIN"), USER("USER");
 
     private String role;
 
